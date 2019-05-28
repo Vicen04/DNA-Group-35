@@ -1,0 +1,951 @@
+﻿Log file open, 05/28/19 14:12:04
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: DNAGroupProject
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.287129
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.677s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, GPU: Intel(R) HD Graphics 630
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: -EpicPortal  -epicusername="Barrolskii" -epicuserid=afa952eb1f744863927344bf45e5c71f -epiclocale=en-GB
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.05.28-13.12.05:497][  0]LogInit: Selected Device Profile: [Windows]
+[2019.05.28-13.12.05:497][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.05.28-13.12.05:555][  0]LogHAL: Display: Platform has ~ 8 GB [8502394880 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.05.28-13.12.05:555][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.05.28-13.12.05:555][  0]LogInit: Going up to parent DeviceProfile []
+[2019.05.28-13.12.05:555][  0]LogInit: Computer: DESKTOP-3Q993NN
+[2019.05.28-13.12.05:555][  0]LogInit: User: Ash
+[2019.05.28-13.12.05:555][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.05.28-13.12.05:555][  0]LogInit: High frequency timer resolution =2.742189 MHz
+[2019.05.28-13.12.05:555][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.05.28-13.12.05:556][  0]LogMemory: Platform Memory Stats for Windows
+[2019.05.28-13.12.05:556][  0]LogMemory: Process Physical Memory: 101.09 MB used, 101.09 MB peak
+[2019.05.28-13.12.05:556][  0]LogMemory: Process Virtual Memory: 93.02 MB used, 93.02 MB peak
+[2019.05.28-13.12.05:556][  0]LogMemory: Physical Memory: 5345.73 MB used,  2762.79 MB free, 8108.52 MB total
+[2019.05.28-13.12.05:556][  0]LogMemory: Virtual Memory: 4647.60 MB used,  2762.79 MB free, 134217728.00 MB total
+[2019.05.28-13.12.05:580][  0]LogInit: Using OS detected language (en-GB).
+[2019.05.28-13.12.05:580][  0]LogInit: Using OS detected locale (en-GB).
+[2019.05.28-13.12.05:581][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2019.05.28-13.12.06:048][  0]LogStreaming: Display: Took  0.470s to InitEngineTextLocalization.
+[2019.05.28-13.12.06:049][  0]LogInit: Setting process to per monitor DPI aware
+[2019.05.28-13.12.07:042][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.05.28-13.12.07:042][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.05.28-13.12.18:461][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.05.28-13.12.18:461][  0]LogD3D11RHI: D3D11 adapters:
+[2019.05.28-13.12.18:609][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2019.05.28-13.12.18:609][  0]LogD3D11RHI:       4018/0/4054 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.05.28-13.12.18:623][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.05.28-13.12.18:623][  0]LogD3D11RHI:       128/0/4054 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.05.28-13.12.18:625][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.05.28-13.12.18:625][  0]LogD3D11RHI:       0/0/4054 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.05.28-13.12.18:625][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.05.28-13.12.18:649][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.05.28-13.12.18:649][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8c (for the marketing name, search the web for "GPU Device Id")
+[2019.05.28-13.12.18:649][  0]LogWindows: EnumDisplayDevices:
+[2019.05.28-13.12.18:650][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2019.05.28-13.12.18:650][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.05.28-13.12.18:650][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.05.28-13.12.18:650][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2019.05.28-13.12.18:650][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2019.05.28-13.12.18:650][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2019.05.28-13.12.18:650][  0]LogD3D11RHI:   Driver Version: 419.35 (internal:25.21.14.1935, unified:419.35)
+[2019.05.28-13.12.18:650][  0]LogD3D11RHI:      Driver Date: 3-1-2019
+[2019.05.28-13.12.18:650][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
+[2019.05.28-13.12.18:693][  0]LogD3D11RHI: Async texture creation enabled
+[2019.05.28-13.12.18:705][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.05.28-13.12.18:707][  0]LogShaderCompilers: Guid format shader working directory is -40 characters bigger than the processId version (../../../../../../Users/Ash/Desktop/UniWork/DNAProject/DNA-Group-35/DNAGroupProject/Intermediate/Shaders/WorkingDirectory/12552/).
+[2019.05.28-13.12.18:707][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Ash/AppData/Local/Temp/UnrealShaderWorkingDir/87795F484E44F4442503F5A9F404F77B/'.
+[2019.05.28-13.12.19:334][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.05.28-13.12.19:348][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.05.28-13.12.19:361][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.05.28-13.12.19:374][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.05.28-13.12.19:401][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.05.28-13.12.19:414][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.05.28-13.12.19:428][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.05.28-13.12.19:443][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.05.28-13.12.19:449][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.05.28-13.12.19:572][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.28-13.12.19:572][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.28-13.12.19:572][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.28-13.12.19:572][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.28-13.12.19:572][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.28-13.12.19:572][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.28-13.12.19:572][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.28-13.12.19:572][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.28-13.12.19:572][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.28-13.12.19:573][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.28-13.12.19:573][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.28-13.12.19:573][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.28-13.12.19:573][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.28-13.12.19:573][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.28-13.12.19:573][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.28-13.12.19:573][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.28-13.12.19:573][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.28-13.12.19:573][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.28-13.12.19:574][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.05.28-13.12.19:720][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.05.28-13.12.19:720][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.05.28-13.12.19:745][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.05.28-13.12.19:745][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.05.28-13.12.19:757][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.05.28-13.12.19:769][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.05.28-13.12.19:781][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.05.28-13.12.19:823][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.05.28-13.12.19:831][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.05.28-13.12.19:831][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.05.28-13.12.20:013][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.05.28-13.12.20:013][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.05.28-13.12.20:013][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.05.28-13.12.27:807][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.05.28-13.12.29:678][  0]LogDerivedDataCache: Loaded boot cache 1.87s 72MB C:/Users/Ash/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.05.28-13.12.29:678][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Ash/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.05.28-13.12.29:679][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Ash/Desktop/UniWork/DNAProject/DNA-Group-35/DNAGroupProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.05.28-13.12.29:679][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.05.28-13.12.29:679][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Ash/Desktop/UniWork/DNAProject/DNA-Group-35/DNAGroupProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.05.28-13.12.29:679][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.05.28-13.12.29:694][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.05.28-13.12.29:707][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Ash/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.05.28-13.12.29:707][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.05.28-13.12.29:707][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.05.28-13.12.29:724][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.05.28-13.12.29:726][  0]LogSlate: Using FreeType 2.6.0
+[2019.05.28-13.12.29:778][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.05.28-13.12.32:585][  0]LogAssetRegistry: FAssetRegistry took 0.0261 seconds to start up
+[2019.05.28-13.12.32:890][  0]LogInit: Selected Device Profile: [Windows]
+[2019.05.28-13.12.32:993][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.05.28-13.12.32:996][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.05.28-13.12.32:996][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.05.28-13.12.32:996][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.05.28-13.12.32:996][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.05.28-13.12.33:094][  0]LogNetVersion: DNAGroupProject 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3024773851)
+[2019.05.28-13.12.33:743][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.153557 seconds
+[2019.05.28-13.12.33:751][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.05.28-13.12.33:751][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.05.28-13.12.33:751][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.05.28-13.13.30:962][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.05.28-13.13.30:990][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.05.28-13.13.34:520][  0]SourceControl: Source control is disabled
+[2019.05.28-13.13.34:520][  0]SourceControl: Source control is disabled
+[2019.05.28-13.13.34:522][  0]SourceControl: Source control is disabled
+[2019.05.28-13.13.34:523][  0]SourceControl: Source control is disabled
+[2019.05.28-13.13.34:878][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.05.28-13.13.34:925][  0]LogOcInput: OculusInput pre-init called
+[2019.05.28-13.13.35:160][  0]LogEngine: Initializing Engine...
+[2019.05.28-13.13.35:160][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.05.28-13.13.35:161][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.05.28-13.13.35:162][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.05.28-13.13.35:162][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.05.28-13.13.35:162][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.05.28-13.13.35:380][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.05.28-13.13.35:396][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.05.28-13.13.35:461][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.28-13.13.35:486][  0]LogInit: FAudioDevice initialized.
+[2019.05.28-13.13.35:487][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.05.28-13.13.35:717][  0]LogDerivedDataCache: Saved boot cache 0.23s 75MB C:/Users/Ash/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.05.28-13.13.35:729][  0]LogInit: Texture streaming: Enabled
+[2019.05.28-13.13.35:751][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.05.28-13.13.35:769][  0]LogInit: Transaction tracking system initialized
+[2019.05.28-13.13.35:799][  0]BlueprintLog: New page: Editor Load
+[2019.05.28-13.13.36:436][  0]LocalizationService: Localization service is disabled
+[2019.05.28-13.13.37:464][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.05.28-13.13.37:464][  0]LogCook: Display: Mobile HDR setting 1
+[2019.05.28-13.13.37:602][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ash/Desktop/UniWork/DNAProject/DNA-Group-35/DNAGroupProject/Content/' took 0.01s
+[2019.05.28-13.13.37:602][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.05.28-13.13.37:602][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.05.28-13.13.37:602][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.05.28-13.13.37:602][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.05.28-13.13.37:602][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.05.28-13.13.39:405][  0]SourceControl: Source control is disabled
+[2019.05.28-13.13.39:406][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Ash/Desktop/UniWork/DNAProject/DNA-Group-35/DNAGroupProject/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.05.28-13.13.39:406][  0]LightingResults: New page: Lighting Build
+[2019.05.28-13.13.39:409][  0]MapCheck: New page: Map Check
+[2019.05.28-13.13.39:409][  0]LightingResults: New page: Lighting Build
+[2019.05.28-13.13.39:963][  0]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2019.05.28-13.13.39:963][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 512X512)
+[2019.05.28-13.13.39:963][  0]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2019.05.28-13.13.39:963][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2019.05.28-13.13.39:963][  0]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 512X512)
+[2019.05.28-13.13.39:963][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2019.05.28-13.13.39:963][  0]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 512X256)
+[2019.05.28-13.13.39:963][  0]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2019.05.28-13.13.41:008][  0]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 64X32)
+[2019.05.28-13.13.41:008][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 2048X1024)
+[2019.05.28-13.13.41:008][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 64X32)
+[2019.05.28-13.13.43:091][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.05.28-13.13.44:849][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.05.28-13.13.44:873][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.05.28-13.13.44:957][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 84.893ms to complete.
+[2019.05.28-13.13.44:957][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 5.553
+[2019.05.28-13.13.47:390][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.28-13.13.47:401][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.28-13.13.47:409][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.28-13.13.47:415][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.28-13.13.47:831][  0]LogCollectionManager: Loaded 0 collections in 0.001938 seconds
+[2019.05.28-13.13.48:571][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ash/Desktop/UniWork/DNAProject/DNA-Group-35/DNAGroupProject/Saved/Collections/' took 0.01s
+[2019.05.28-13.13.48:571][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ash/Desktop/UniWork/DNAProject/DNA-Group-35/DNAGroupProject/Content/Developers/Ash/Collections/' took 0.01s
+[2019.05.28-13.13.48:571][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ash/Desktop/UniWork/DNAProject/DNA-Group-35/DNAGroupProject/Content/Collections/' took 0.01s
+[2019.05.28-13.13.48:571][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.05.28-13.13.48:587][  0]LogContentBrowser: Native class hierarchy populated in 0.0141 seconds. Added 2574 classes and 605 folders.
+[2019.05.28-13.13.48:792][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.05.28-13.13.50:492][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.05.28-13.13.50:974][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.05.28-13.14.02:856][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.05.28-13.14.03:038][  0]LogSlate: Took 0.020503 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.05.28-13.14.03:133][  0]LogSlate: Took 0.080263 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.05.28-13.14.03:286][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.DNAGroupProject
+[2019.05.28-13.14.03:286][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.05.28-13.14.03:286][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
+[2019.05.28-13.14.03:286][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.05.28-13.14.03:286][  0]LogTemp: BranchPath = DESKTOP-3Q993NN/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DESKTOP-3Q993NN/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
+[2019.05.28-13.14.03:286][  0]LogSlate: Took 0.025964 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.05.28-13.14.04:353][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Ash\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.05.28-13.14.04:353][  0]LogRenderer: Reallocating scene render targets to support 964x436 Format 10 NumSamples 1 (Frame:1).
+[2019.05.28-13.14.05:579][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.05.28-13.14.05:579][  0]LogLoad: (Engine Initialization) Total time: 123.55 seconds
+[2019.05.28-13.14.05:580][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.05.28-13.14.05:632][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.05.28-13.14.05:860][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.05.28-13.14.06:043][  0]LogSlate: Took 0.040206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.05.28-13.14.06:101][  1]LogAssetRegistry: Asset discovery search completed in 93.5386 seconds
+[2019.05.28-13.14.06:104][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.05.28-13.14.06:104][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000137 seconds (updated 0 objects)
+[2019.05.28-13.15.40:797][125]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.28-13.17.49:484][969]LogSlate: Took 0.042791 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.05.28-13.17.51:932][969]LogSavePackage: Moving '../../../../../../Users/Ash/Desktop/UniWork/DNAProject/DNA-Group-35/DNAGroupProject/Saved/ThirdPersonExampleMapB9AAAF3D44FDB54162D9F5BE9891D08F.tmp' to '../../../../../../Users/Ash/Desktop/UniWork/DNAProject/DNA-Group-35/DNAGroupProject/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2019.05.28-13.17.52:427][969]LogSavePackage: Moving '../../../../../../Users/Ash/Desktop/UniWork/DNAProject/DNA-Group-35/DNAGroupProject/Saved/ThirdPersonExampleMap_BuiltDataC3DCD9BC4DB762608CEB6D98A195DD99.tmp' to '../../../../../../Users/Ash/Desktop/UniWork/DNAProject/DNA-Group-35/DNAGroupProject/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2019.05.28-13.17.55:470][104]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall7)
+[2019.05.28-13.17.57:831][104]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.28-13.18.43:451][705]LogTexture: Display: Building textures: Pl_plastic_r (AutoDXT, 1024X1024)
+[2019.05.28-13.18.43:451][705]LogStaticMesh: Building static mesh Pl_Coin_01...
+[2019.05.28-13.18.43:835][705]LogTexture: Display: Building textures: Pl_plastic_n (BC5, 1024X1024)
+[2019.05.28-13.18.43:835][705]LogStaticMesh: Built static mesh [0.38s] /Game/Platformer/Meshes/Pl_Coin_01.Pl_Coin_01
+[2019.05.28-13.18.44:088][705]LogMaterial: Display: Missing cached shader map for material M_Metal_Black_Parent, compiling. 
+[2019.05.28-13.18.44:621][705]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.05.28-13.18.44:621][705]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.05.28-13.18.44:621][705]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.05.28-13.18.44:621][705]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.28-13.18.44:624][705]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.28-13.18.44:629][705]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Platformer/Blueprints/Pl_Coin_01.Pl_Coin_01
+[2019.05.28-13.18.48:504][705]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0016 seconds. Added 116 classes and 0 folders.
+[2019.05.28-13.18.51:813][705]LogSlate: Took 0.031144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.05.28-13.18.52:669][706]LogSlate: Took 0.035979 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.05.28-13.18.55:319][816]LogSlate: Window 'Pl_Coin_01' being destroyed
+[2019.05.28-13.18.56:609][868]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.28-13.18.56:663][869]LogRenderer: Reallocating scene render targets to support 964x540 Format 10 NumSamples 1 (Frame:1).
+[2019.05.28-13.19.06:898][461]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.28-13.19.21:522][819]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2019.05.28-13.19.21:522][819]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (BGRA8, 64X32)
+[2019.05.28-13.19.21:522][819]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 256X256)
+[2019.05.28-13.19.21:580][819]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2019.05.28-13.19.21:581][819]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 256X256)
+[2019.05.28-13.19.21:791][819]LogTexture: Display: Building textures: Pl_Grass_trim_d (AutoDXT, 1024X1024)
+[2019.05.28-13.19.21:791][819]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 256X128)
+[2019.05.28-13.19.22:236][819]LogStaticMesh: Building static mesh Pl_16m_gtrim_01...
+[2019.05.28-13.19.22:238][819]LogStaticMesh: Built static mesh [0.09s] /Game/Platformer/Meshes/Pl_16m_gtrim_01.Pl_16m_gtrim_01
+[2019.05.28-13.19.22:733][819]LogTexture: Display: Building textures: Pl_StoneBlock_n (BC5, 2048X2048)
+[2019.05.28-13.19.22:733][819]LogStaticMesh: Building static mesh Pl_16m_Platform_ext...
+[2019.05.28-13.19.22:734][819]LogStaticMesh: Built static mesh [0.29s] /Game/Platformer/Meshes/Pl_16m_Platform_ext.Pl_16m_Platform_ext
+[2019.05.28-13.19.22:937][819]LogTexture: Display: Building textures: Pl_Grass_trim_n (BC5, 2048X2048)
+[2019.05.28-13.19.22:937][819]LogStaticMesh: Building static mesh Pl_16m_Platform...
+[2019.05.28-13.19.22:941][819]LogStaticMesh: Built static mesh [0.03s] /Game/Platformer/Meshes/Pl_16m_Platform.Pl_16m_Platform
+[2019.05.28-13.19.23:158][819]LogTexture: Display: Building textures: Pl_Cliff_r (AutoDXT, 2048X2048)
+[2019.05.28-13.19.23:158][819]LogStaticMesh: Building static mesh Pl_1m_grassblock...
+[2019.05.28-13.19.23:160][819]LogStaticMesh: Built static mesh [0.03s] /Game/Platformer/Meshes/Pl_1m_grassblock.Pl_1m_grassblock
+[2019.05.28-13.19.23:937][819]LogTexture: Display: Building textures: Pl_Plants_d (AutoDXT, 1024X1024)
+[2019.05.28-13.19.23:937][819]LogStaticMesh: Building static mesh Pl_2m_grassblock...
+[2019.05.28-13.19.23:938][819]LogStaticMesh: Built static mesh [0.54s] /Game/Platformer/Meshes/Pl_2m_grassblock.Pl_2m_grassblock
+[2019.05.28-13.19.24:348][819]LogTexture: Display: Building textures: Pl_Plants_n (BC5, 1024X1024)
+[2019.05.28-13.19.24:351][819]LogStaticMesh: Building static mesh Pl_4m_gtrim_01...
+[2019.05.28-13.19.24:352][819]LogStaticMesh: Built static mesh [0.00s] /Game/Platformer/Meshes/Pl_4m_gtrim_01.Pl_4m_gtrim_01
+[2019.05.28-13.19.24:452][819]LogTexture: Display: Building textures: Pl_Plants_r (AutoDXT, 1024X1024)
+[2019.05.28-13.19.24:452][819]LogStaticMesh: Building static mesh Pl_4m_Platform...
+[2019.05.28-13.19.24:456][819]LogStaticMesh: Built static mesh [0.00s] /Game/Platformer/Meshes/Pl_4m_Platform.Pl_4m_Platform
+[2019.05.28-13.19.25:338][819]LogTexture: Display: Building textures: Pl_StoneBlock_r (AutoDXT, 2048X2048)
+[2019.05.28-13.19.25:338][819]LogTexture: Display: Building textures: Pl_Leaf_01_d (AutoDXT, 2048X2048)
+[2019.05.28-13.19.25:338][819]LogTexture: Display: Building textures: Pl_BeanStalk_d (AutoDXT, 2048X2048)
+[2019.05.28-13.19.25:338][819]LogStaticMesh: Building static mesh Pl_4m_Platform_ext...
+[2019.05.28-13.19.25:339][819]LogStaticMesh: Built static mesh [0.51s] /Game/Platformer/Meshes/Pl_4m_Platform_ext.Pl_4m_Platform_ext
+[2019.05.28-13.19.25:647][819]LogTexture: Display: Building textures: Pl_Cliff_d (AutoDXT, 2048X2048)
+[2019.05.28-13.19.25:648][819]LogStaticMesh: Building static mesh Pl_8m_gtrim_01...
+[2019.05.28-13.19.25:649][819]LogStaticMesh: Built static mesh [0.09s] /Game/Platformer/Meshes/Pl_8m_gtrim_01.Pl_8m_gtrim_01
+[2019.05.28-13.19.25:835][819]LogStaticMesh: Building static mesh Pl_8m_Gtrim_Hrnd_01...
+[2019.05.28-13.19.25:836][819]LogStaticMesh: Built static mesh [0.00s] /Game/Platformer/Meshes/Pl_8m_Gtrim_Hrnd_01.Pl_8m_Gtrim_Hrnd_01
+[2019.05.28-13.19.25:968][819]LogTexture: Display: Building textures: Pl_Cliff_n (BC5, 2048X2048)
+[2019.05.28-13.19.26:000][819]LogStaticMesh: Building static mesh Pl_8m_gtrim_rnd_01...
+[2019.05.28-13.19.26:004][819]LogStaticMesh: Built static mesh [0.00s] /Game/Platformer/Meshes/Pl_8m_gtrim_rnd_01.Pl_8m_gtrim_rnd_01
+[2019.05.28-13.19.26:244][819]LogTexture: Display: Building textures: Pl_BeanStalk_n (BC5, 2048X2048)
+[2019.05.28-13.19.26:244][819]LogTexture: Display: Building textures: Pl_Grass_r (AutoDXT, 1024X1024)
+[2019.05.28-13.19.26:244][819]LogTexture: Display: Building textures: Pl_Patterns_m (AutoDXT, 1024X1024)
+[2019.05.28-13.19.26:249][819]LogStaticMesh: Building static mesh Pl_8m_Hill...
+[2019.05.28-13.19.26:254][819]LogStaticMesh: Built static mesh [0.00s] /Game/Platformer/Meshes/Pl_8m_Hill.Pl_8m_Hill
+[2019.05.28-13.19.27:754][819]LogTexture: Display: Building textures: pl_tree_r (DXT1, 1024X1024)
+[2019.05.28-13.19.27:754][819]LogTexture: Display: Building textures: pl_tree_d (AutoDXT, 1024X1024)
+[2019.05.28-13.19.27:754][819]LogStaticMesh: Building static mesh Pl_8m_Platform...
+[2019.05.28-13.19.27:758][819]LogStaticMesh: Built static mesh [1.03s] /Game/Platformer/Meshes/Pl_8m_Platform.Pl_8m_Platform
+[2019.05.28-13.19.28:029][819]LogTexture: Display: Building textures: Pl_Leaf_01_n (BC5, 2048X2048)
+[2019.05.28-13.19.28:030][819]LogTexture: Display: Building textures: pl_wood_r (AutoDXT, 1024X1024)
+[2019.05.28-13.19.28:030][819]LogTexture: Display: Building textures: pl_tree_n (BC5, 1024X1024)
+[2019.05.28-13.19.28:030][819]LogStaticMesh: Building static mesh Pl_8m_Platform_crn...
+[2019.05.28-13.19.28:032][819]LogStaticMesh: Built static mesh [0.26s] /Game/Platformer/Meshes/Pl_8m_Platform_crn.Pl_8m_Platform_crn
+[2019.05.28-13.19.28:943][819]LogTexture: Display: Building textures: Pl_Grass_d (AutoDXT, 1024X1024)
+[2019.05.28-13.19.28:943][819]LogTexture: Display: Building textures: Pl_Grass_n (BC5, 1024X1024)
+[2019.05.28-13.19.28:943][819]LogTexture: Display: Building textures: pl_wood_d (AutoDXT, 1024X1024)
+[2019.05.28-13.19.28:943][819]LogStaticMesh: Building static mesh Pl_8m_Platform_crn_ext...
+[2019.05.28-13.19.28:943][819]LogStaticMesh: Built static mesh [0.76s] /Game/Platformer/Meshes/Pl_8m_Platform_crn_ext.Pl_8m_Platform_crn_ext
+[2019.05.28-13.19.29:337][819]LogStaticMesh: Building static mesh Pl_8m_Platform_ext...
+[2019.05.28-13.19.29:338][819]LogStaticMesh: Built static mesh [0.00s] /Game/Platformer/Meshes/Pl_8m_Platform_ext.Pl_8m_Platform_ext
+[2019.05.28-13.19.30:438][819]LogTexture: Display: Building textures: pl_wood_n (BC5, 1024X1024)
+[2019.05.28-13.19.30:438][819]LogTexture: Display: Building textures: Pl_Crate_n (BC5, 512X512)
+[2019.05.28-13.19.30:438][819]LogTexture: Display: Building textures: Pl_StoneBlock_d (AutoDXT, 2048X2048)
+[2019.05.28-13.19.30:438][819]LogTexture: Display: Building textures: Pl_Leaf_01_r (AutoDXT, 2048X2048)
+[2019.05.28-13.19.30:438][819]LogTexture: Display: Building textures: Pl_Grass_trim_r (AutoDXT, 1024X1024)
+[2019.05.28-13.19.30:438][819]LogTexture: Display: Building textures: Pl_Crate_d (AutoDXT, 512X512)
+[2019.05.28-13.19.30:438][819]LogStaticMesh: Building static mesh Pl_8m_Platform_Hrnd...
+[2019.05.28-13.19.30:444][819]LogStaticMesh: Built static mesh [0.58s] /Game/Platformer/Meshes/Pl_8m_Platform_Hrnd.Pl_8m_Platform_Hrnd
+[2019.05.28-13.19.30:608][819]LogStaticMesh: Building static mesh Pl_8m_Platform_Hrnd_ext...
+[2019.05.28-13.19.30:609][819]LogStaticMesh: Built static mesh [0.00s] /Game/Platformer/Meshes/Pl_8m_Platform_Hrnd_ext.Pl_8m_Platform_Hrnd_ext
+[2019.05.28-13.19.30:661][819]LogStaticMesh: Building static mesh Pl_8m_Platform_L...
+[2019.05.28-13.19.30:666][819]LogStaticMesh: Built static mesh [0.02s] /Game/Platformer/Meshes/Pl_8m_Platform_L.Pl_8m_Platform_L
+[2019.05.28-13.19.30:669][819]LogStaticMesh: Building static mesh Pl_8m_Platform_L_ext...
+[2019.05.28-13.19.30:670][819]LogStaticMesh: Built static mesh [0.00s] /Game/Platformer/Meshes/Pl_8m_Platform_L_ext.Pl_8m_Platform_L_ext
+[2019.05.28-13.19.30:826][819]LogTexture: Display: Building textures: Pl_Crate_r (AutoDXT, 512X512)
+[2019.05.28-13.19.30:827][819]LogStaticMesh: Building static mesh Pl_8m_Platform_rnd...
+[2019.05.28-13.19.30:831][819]LogStaticMesh: Built static mesh [0.13s] /Game/Platformer/Meshes/Pl_8m_Platform_rnd.Pl_8m_Platform_rnd
+[2019.05.28-13.19.31:160][819]LogStaticMesh: Building static mesh Pl_8m_Platform_rnd_ext...
+[2019.05.28-13.19.31:161][819]LogStaticMesh: Built static mesh [0.11s] /Game/Platformer/Meshes/Pl_8m_Platform_rnd_ext.Pl_8m_Platform_rnd_ext
+[2019.05.28-13.19.31:206][819]LogStaticMesh: Building static mesh Pl_button...
+[2019.05.28-13.19.31:209][819]LogStaticMesh: Built static mesh [0.00s] /Game/Platformer/Meshes/Pl_button.Pl_button
+[2019.05.28-13.19.31:622][819]LogStaticMesh: Building static mesh Pl_buttonBase...
+[2019.05.28-13.19.31:627][819]LogStaticMesh: Built static mesh [0.01s] /Game/Platformer/Meshes/Pl_buttonBase.Pl_buttonBase
+[2019.05.28-13.19.32:011][819]LogStaticMesh: Building static mesh Pl_CloudPlat_4m...
+[2019.05.28-13.19.32:038][819]LogStaticMesh: Built static mesh [0.03s] /Game/Platformer/Meshes/Pl_CloudPlat_4m.Pl_CloudPlat_4m
+[2019.05.28-13.19.32:207][819]LogStaticMesh: Building static mesh Pl_CloudPlat_4x8m...
+[2019.05.28-13.19.32:247][819]LogStaticMesh: Built static mesh [0.06s] /Game/Platformer/Meshes/Pl_CloudPlat_4x8m.Pl_CloudPlat_4x8m
+[2019.05.28-13.19.32:336][819]LogTexture: Display: Building textures: Pl_BeanStalk_r (AutoDXT, 2048X2048)
+[2019.05.28-13.19.32:336][819]LogStaticMesh: Building static mesh Pl_CloudPlat_8m...
+[2019.05.28-13.19.32:451][819]LogStaticMesh: Built static mesh [0.12s] /Game/Platformer/Meshes/Pl_CloudPlat_8m.Pl_CloudPlat_8m
+[2019.05.28-13.19.32:668][819]LogStaticMesh: Building static mesh Pl_Coin_02...
+[2019.05.28-13.19.32:676][819]LogStaticMesh: Built static mesh [0.05s] /Game/Platformer/Meshes/Pl_Coin_02.Pl_Coin_02
+[2019.05.28-13.19.32:776][819]LogStaticMesh: Building static mesh Pl_Crate_01...
+[2019.05.28-13.19.32:779][819]LogStaticMesh: Built static mesh [0.02s] /Game/Platformer/Meshes/Pl_Crate_01.Pl_Crate_01
+[2019.05.28-13.19.32:850][819]LogStaticMesh: Building static mesh Pl_Crate_02...
+[2019.05.28-13.19.32:853][819]LogStaticMesh: Built static mesh [0.00s] /Game/Platformer/Meshes/Pl_Crate_02.Pl_Crate_02
+[2019.05.28-13.19.33:292][819]LogStaticMesh: Building static mesh Pl_Crate_Shards_01...
+[2019.05.28-13.19.33:292][819]LogStaticMesh: Built static mesh [0.00s] /Game/Platformer/Meshes/Pl_Crate_Shards_01.Pl_Crate_Shards_01
+[2019.05.28-13.19.33:922][819]LogStaticMesh: Building static mesh Pl_Crate_Shards_02...
+[2019.05.28-13.19.33:922][819]LogStaticMesh: Built static mesh [0.30s] /Game/Platformer/Meshes/Pl_Crate_Shards_02.Pl_Crate_Shards_02
+[2019.05.28-13.19.33:924][819]LogStaticMesh: Building static mesh Pl_Crate_Shards_03...
+[2019.05.28-13.19.33:925][819]LogStaticMesh: Built static mesh [0.00s] /Game/Platformer/Meshes/Pl_Crate_Shards_03.Pl_Crate_Shards_03
+[2019.05.28-13.19.34:345][819]LogStaticMesh: Building static mesh Pl_Fence_2m_01...
+[2019.05.28-13.19.34:351][819]LogStaticMesh: Built static mesh [0.27s] /Game/Platformer/Meshes/Pl_Fence_2m_01.Pl_Fence_2m_01
+[2019.05.28-13.19.34:724][819]LogStaticMesh: Building static mesh Pl_Fence_2m_02...
+[2019.05.28-13.19.34:731][819]LogStaticMesh: Built static mesh [0.01s] /Game/Platformer/Meshes/Pl_Fence_2m_02.Pl_Fence_2m_02
+[2019.05.28-13.19.34:752][819]LogStaticMesh: Building static mesh Pl_Fence_8m_01...
+[2019.05.28-13.19.34:796][819]LogStaticMesh: Built static mesh [0.04s] /Game/Platformer/Meshes/Pl_Fence_8m_01.Pl_Fence_8m_01
+[2019.05.28-13.19.34:925][819]LogStaticMesh: Building static mesh Pl_Fence_8m_02...
+[2019.05.28-13.19.34:933][819]LogStaticMesh: Built static mesh [0.04s] /Game/Platformer/Meshes/Pl_Fence_8m_02.Pl_Fence_8m_02
+[2019.05.28-13.19.35:029][819]LogStaticMesh: Building static mesh Pl_FencePost...
+[2019.05.28-13.19.35:031][819]LogStaticMesh: Built static mesh [0.00s] /Game/Platformer/Meshes/Pl_FencePost.Pl_FencePost
+[2019.05.28-13.19.35:131][819]LogStaticMesh: Building static mesh Pl_Fern_01...
+[2019.05.28-13.19.35:132][819]LogStaticMesh: Built static mesh [0.00s] /Game/Platformer/Meshes/Pl_Fern_01.Pl_Fern_01
+[2019.05.28-13.19.35:286][819]LogStaticMesh: Building static mesh Pl_fern_02...
+[2019.05.28-13.19.35:288][819]LogStaticMesh: Built static mesh [0.07s] /Game/Platformer/Meshes/Pl_fern_02.Pl_fern_02
+[2019.05.28-13.19.35:374][819]LogStaticMesh: Building static mesh Pl_flower_01...
+[2019.05.28-13.19.35:377][819]LogStaticMesh: Built static mesh [0.00s] /Game/Platformer/Meshes/Pl_flower_01.Pl_flower_01
+[2019.05.28-13.19.35:416][819]LogStaticMesh: Building static mesh Pl_flower_02...
+[2019.05.28-13.19.35:418][819]LogStaticMesh: Built static mesh [0.03s] /Game/Platformer/Meshes/Pl_flower_02.Pl_flower_02
+[2019.05.28-13.19.35:441][819]LogStaticMesh: Building static mesh Pl_flower_03...
+[2019.05.28-13.19.35:444][819]LogStaticMesh: Built static mesh [0.00s] /Game/Platformer/Meshes/Pl_flower_03.Pl_flower_03
+[2019.05.28-13.19.35:539][819]LogStaticMesh: Building static mesh Pl_flower_04...
+[2019.05.28-13.19.35:540][819]LogStaticMesh: Built static mesh [0.06s] /Game/Platformer/Meshes/Pl_flower_04.Pl_flower_04
+[2019.05.28-13.19.35:627][819]LogStaticMesh: Building static mesh Pl_flower_05...
+[2019.05.28-13.19.35:660][819]LogStaticMesh: Built static mesh [0.03s] /Game/Platformer/Meshes/Pl_flower_05.Pl_flower_05
+[2019.05.28-13.19.35:719][819]LogStaticMesh: Building static mesh Pl_flower_06...
+[2019.05.28-13.19.35:722][819]LogStaticMesh: Built static mesh [0.04s] /Game/Platformer/Meshes/Pl_flower_06.Pl_flower_06
+[2019.05.28-13.19.36:598][819]LogStaticMesh: Building static mesh Pl_GrassWall_4m...
+[2019.05.28-13.19.36:600][819]LogStaticMesh: Built static mesh [0.32s] /Game/Platformer/Meshes/Pl_GrassWall_4m.Pl_GrassWall_4m
+[2019.05.28-13.19.36:707][819]LogStaticMesh: Building static mesh Pl_GrassWall_8m...
+[2019.05.28-13.19.36:709][819]LogStaticMesh: Built static mesh [0.00s] /Game/Platformer/Meshes/Pl_GrassWall_8m.Pl_GrassWall_8m
+[2019.05.28-13.19.36:827][819]LogStaticMesh: Building static mesh Pl_gtrim_01...
+[2019.05.28-13.19.36:827][819]LogStaticMesh: Built static mesh [0.00s] /Game/Platformer/Meshes/Pl_gtrim_01.Pl_gtrim_01
+[2019.05.28-13.19.37:045][819]LogStaticMesh: Building static mesh Pl_gtrim_02...
+[2019.05.28-13.19.37:046][819]LogStaticMesh: Built static mesh [0.00s] /Game/Platformer/Meshes/Pl_gtrim_02.Pl_gtrim_02
+[2019.05.28-13.19.37:441][819]LogStaticMesh: Building static mesh Pl_gtrim_03...
+[2019.05.28-13.19.37:442][819]LogStaticMesh: Built static mesh [0.33s] /Game/Platformer/Meshes/Pl_gtrim_03.Pl_gtrim_03
+[2019.05.28-13.19.37:444][819]LogStaticMesh: Building static mesh Pl_gtrim_04...
+[2019.05.28-13.19.37:444][819]LogStaticMesh: Built static mesh [0.00s] /Game/Platformer/Meshes/Pl_gtrim_04.Pl_gtrim_04
+[2019.05.28-13.19.37:594][819]LogStaticMesh: Building static mesh Pl_Leaf_01...
+[2019.05.28-13.19.37:603][819]LogStaticMesh: Built static mesh [0.04s] /Game/Platformer/Meshes/Beanstalks/Pl_Leaf_01.Pl_Leaf_01
+[2019.05.28-13.19.37:841][819]LogStaticMesh: Building static mesh Pl_Leaf_02...
+[2019.05.28-13.19.37:848][819]LogStaticMesh: Built static mesh [0.02s] /Game/Platformer/Meshes/Beanstalks/Pl_Leaf_02.Pl_Leaf_02
+[2019.05.28-13.19.37:858][819]LogStaticMesh: Building static mesh Pl_Leaf_03...
+[2019.05.28-13.19.37:866][819]LogStaticMesh: Built static mesh [0.01s] /Game/Platformer/Meshes/Beanstalks/Pl_Leaf_03.Pl_Leaf_03
+[2019.05.28-13.19.37:984][819]LogStaticMesh: Building static mesh Pl_Leaf_04...
+[2019.05.28-13.19.37:994][819]LogStaticMesh: Built static mesh [0.01s] /Game/Platformer/Meshes/Beanstalks/Pl_Leaf_04.Pl_Leaf_04
+[2019.05.28-13.19.38:090][819]LogStaticMesh: Building static mesh Pl_Leaf_05...
+[2019.05.28-13.19.38:099][819]LogStaticMesh: Built static mesh [0.09s] /Game/Platformer/Meshes/Beanstalks/Pl_Leaf_05.Pl_Leaf_05
+[2019.05.28-13.19.38:174][819]LogStaticMesh: Building static mesh Pl_MetalBox_2m...
+[2019.05.28-13.19.38:177][819]LogStaticMesh: Built static mesh [0.00s] /Game/Platformer/Meshes/Pl_MetalBox_2m.Pl_MetalBox_2m
+[2019.05.28-13.19.38:194][819]LogStaticMesh: Building static mesh Pl_MetalBox_2m_short...
+[2019.05.28-13.19.38:195][819]LogStaticMesh: Built static mesh [0.00s] /Game/Platformer/Meshes/Pl_MetalBox_2m_short.Pl_MetalBox_2m_short
+[2019.05.28-13.19.38:276][819]LogStaticMesh: Building static mesh Pl_MetalBox_4x2m...
+[2019.05.28-13.19.38:279][819]LogStaticMesh: Built static mesh [0.00s] /Game/Platformer/Meshes/Pl_MetalBox_4x2m.Pl_MetalBox_4x2m
+[2019.05.28-13.19.38:692][819]LogStaticMesh: Building static mesh Pl_MetalBox_4x2m_short...
+[2019.05.28-13.19.38:694][819]LogStaticMesh: Built static mesh [0.35s] /Game/Platformer/Meshes/Pl_MetalBox_4x2m_short.Pl_MetalBox_4x2m_short
+[2019.05.28-13.19.39:247][819]LogStaticMesh: Building static mesh Pl_MetalBox_4x4m...
+[2019.05.28-13.19.39:250][819]LogStaticMesh: Built static mesh [0.06s] /Game/Platformer/Meshes/Pl_MetalBox_4x4m.Pl_MetalBox_4x4m
+[2019.05.28-13.19.39:308][819]LogStaticMesh: Building static mesh Pl_MetalBox_8x4m...
+[2019.05.28-13.19.39:312][819]LogStaticMesh: Built static mesh [0.03s] /Game/Platformer/Meshes/Pl_MetalBox_8x4m.Pl_MetalBox_8x4m
+[2019.05.28-13.19.39:378][819]LogStaticMesh: Building static mesh Pl_plant_01...
+[2019.05.28-13.19.39:379][819]LogStaticMesh: Built static mesh [0.04s] /Game/Platformer/Meshes/Pl_plant_01.Pl_plant_01
+[2019.05.28-13.19.39:536][819]LogStaticMesh: Building static mesh Pl_plant_02...
+[2019.05.28-13.19.39:538][819]LogStaticMesh: Built static mesh [0.01s] /Game/Platformer/Meshes/Pl_plant_02.Pl_plant_02
+[2019.05.28-13.19.39:635][819]LogStaticMesh: Building static mesh Pl_plant_03...
+[2019.05.28-13.19.39:639][819]LogStaticMesh: Built static mesh [0.00s] /Game/Platformer/Meshes/Pl_plant_03.Pl_plant_03
+[2019.05.28-13.19.39:711][819]LogStaticMesh: Building static mesh Pl_PowerUp_01...
+[2019.05.28-13.19.39:715][819]LogStaticMesh: Built static mesh [0.03s] /Game/Platformer/Meshes/Pl_PowerUp_01.Pl_PowerUp_01
+[2019.05.28-13.19.39:856][819]LogStaticMesh: Building static mesh Pl_PowerUp_02...
+[2019.05.28-13.19.39:858][819]LogStaticMesh: Built static mesh [0.01s] /Game/Platformer/Meshes/Pl_PowerUp_02.Pl_PowerUp_02
+[2019.05.28-13.19.40:167][819]LogStaticMesh: Building static mesh Pl_PowerUp_03...
+[2019.05.28-13.19.40:171][819]LogStaticMesh: Built static mesh [0.00s] /Game/Platformer/Meshes/Pl_PowerUp_03.Pl_PowerUp_03
+[2019.05.28-13.19.40:330][819]LogStaticMesh: Building static mesh Pl_PowerUp_04...
+[2019.05.28-13.19.40:337][819]LogStaticMesh: Built static mesh [0.02s] /Game/Platformer/Meshes/Pl_PowerUp_04.Pl_PowerUp_04
+[2019.05.28-13.19.40:382][819]LogStaticMesh: Building static mesh Pl_PowerUp_05...
+[2019.05.28-13.19.40:388][819]LogStaticMesh: Built static mesh [0.01s] /Game/Platformer/Meshes/Pl_PowerUp_05.Pl_PowerUp_05
+[2019.05.28-13.19.40:528][819]LogStaticMesh: Building static mesh Pl_PowerUp_06...
+[2019.05.28-13.19.40:535][819]LogStaticMesh: Built static mesh [0.11s] /Game/Platformer/Meshes/Pl_PowerUp_06.Pl_PowerUp_06
+[2019.05.28-13.19.40:817][819]LogStaticMesh: Building static mesh Pl_Ramp_4m...
+[2019.05.28-13.19.40:820][819]LogStaticMesh: Built static mesh [0.08s] /Game/Platformer/Meshes/Pl_Ramp_4m.Pl_Ramp_4m
+[2019.05.28-13.19.40:893][819]LogStaticMesh: Building static mesh Pl_ScaffoldBlock_01...
+[2019.05.28-13.19.40:895][819]LogStaticMesh: Built static mesh [0.00s] /Game/Platformer/Meshes/Pl_ScaffoldBlock_01.Pl_ScaffoldBlock_01
+[2019.05.28-13.19.41:208][819]LogStaticMesh: Building static mesh Pl_Scaffoldpost_01...
+[2019.05.28-13.19.41:210][819]LogStaticMesh: Built static mesh [0.18s] /Game/Platformer/Meshes/Pl_Scaffoldpost_01.Pl_Scaffoldpost_01
+[2019.05.28-13.19.41:301][819]LogStaticMesh: Building static mesh Pl_ScaffoldWall_01...
+[2019.05.28-13.19.41:304][819]LogStaticMesh: Built static mesh [0.09s] /Game/Platformer/Meshes/Pl_ScaffoldWall_01.Pl_ScaffoldWall_01
+[2019.05.28-13.19.41:706][819]LogStaticMesh: Building static mesh Pl_Screw_01...
+[2019.05.28-13.19.41:708][819]LogStaticMesh: Built static mesh [0.00s] /Game/Platformer/Meshes/Pl_Screw_01.Pl_Screw_01
+[2019.05.28-13.19.41:795][819]LogStaticMesh: Building static mesh Pl_secretDoor_01...
+[2019.05.28-13.19.41:799][819]LogStaticMesh: Built static mesh [0.09s] /Game/Platformer/Meshes/Pl_secretDoor_01.Pl_secretDoor_01
+[2019.05.28-13.19.41:994][819]LogStaticMesh: Building static mesh Pl_Sign_01...
+[2019.05.28-13.19.41:996][819]LogStaticMesh: Built static mesh [0.02s] /Game/Platformer/Meshes/Pl_Sign_01.Pl_Sign_01
+[2019.05.28-13.19.42:024][819]LogStaticMesh: Building static mesh Pl_Signpost_01...
+[2019.05.28-13.19.42:027][819]LogStaticMesh: Built static mesh [0.00s] /Game/Platformer/Meshes/Pl_Signpost_01.Pl_Signpost_01
+[2019.05.28-13.19.42:412][819]LogStaticMesh: Building static mesh Pl_stalk_01...
+[2019.05.28-13.19.42:424][819]LogStaticMesh: Built static mesh [0.01s] /Game/Platformer/Meshes/Beanstalks/Pl_stalk_01.Pl_stalk_01
+[2019.05.28-13.19.42:499][819]LogStaticMesh: Building static mesh Pl_stalkbase_01...
+[2019.05.28-13.19.42:509][819]LogStaticMesh: Built static mesh [0.01s] /Game/Platformer/Meshes/Beanstalks/Pl_stalkbase_01.Pl_stalkbase_01
+[2019.05.28-13.19.42:545][819]LogStaticMesh: Building static mesh Pl_stalkbend_01...
+[2019.05.28-13.19.42:553][819]LogStaticMesh: Built static mesh [0.03s] /Game/Platformer/Meshes/Beanstalks/Pl_stalkbend_01.Pl_stalkbend_01
+[2019.05.28-13.19.43:093][819]LogStaticMesh: Building static mesh Pl_stalkcurve_01...
+[2019.05.28-13.19.43:104][819]LogStaticMesh: Built static mesh [0.31s] /Game/Platformer/Meshes/Beanstalks/Pl_stalkcurve_01.Pl_stalkcurve_01
+[2019.05.28-13.19.43:137][819]LogStaticMesh: Building static mesh Pl_stalkcurve_02...
+[2019.05.28-13.19.43:153][819]LogStaticMesh: Built static mesh [0.02s] /Game/Platformer/Meshes/Beanstalks/Pl_stalkcurve_02.Pl_stalkcurve_02
+[2019.05.28-13.19.43:591][819]LogStaticMesh: Building static mesh Pl_stalkend_01...
+[2019.05.28-13.19.43:605][819]LogStaticMesh: Built static mesh [0.01s] /Game/Platformer/Meshes/Beanstalks/Pl_stalkend_01.Pl_stalkend_01
+[2019.05.28-13.19.43:616][819]LogStaticMesh: Building static mesh Pl_stalkend_02...
+[2019.05.28-13.19.43:626][819]LogStaticMesh: Built static mesh [0.01s] /Game/Platformer/Meshes/Beanstalks/Pl_stalkend_02.Pl_stalkend_02
+[2019.05.28-13.19.44:252][819]LogStaticMesh: Building static mesh Pl_stalkend_03...
+[2019.05.28-13.19.44:261][819]LogStaticMesh: Built static mesh [0.22s] /Game/Platformer/Meshes/Beanstalks/Pl_stalkend_03.Pl_stalkend_03
+[2019.05.28-13.19.44:908][819]LogStaticMesh: Building static mesh Pl_StoneBlock_01...
+[2019.05.28-13.19.44:914][819]LogStaticMesh: Built static mesh [0.01s] /Game/Platformer/Meshes/Beanstalks/Pl_StoneBlock_01.Pl_StoneBlock_01
+[2019.05.28-13.19.46:203][819]LogStaticMesh: Building static mesh Pl_StoneBlock_02...
+[2019.05.28-13.19.46:207][819]LogStaticMesh: Built static mesh [0.62s] /Game/Platformer/Meshes/Beanstalks/Pl_StoneBlock_02.Pl_StoneBlock_02
+[2019.05.28-13.19.46:930][819]LogStaticMesh: Building static mesh Pl_StoneBlock_03...
+[2019.05.28-13.19.46:938][819]LogStaticMesh: Built static mesh [0.05s] /Game/Platformer/Meshes/Beanstalks/Pl_StoneBlock_03.Pl_StoneBlock_03
+[2019.05.28-13.19.47:804][819]LogStaticMesh: Building static mesh Pl_StoneBlock_04...
+[2019.05.28-13.19.47:817][819]LogStaticMesh: Built static mesh [0.38s] /Game/Platformer/Meshes/Beanstalks/Pl_StoneBlock_04.Pl_StoneBlock_04
+[2019.05.28-13.19.48:185][819]LogStaticMesh: Building static mesh Pl_StoneBlock_05...
+[2019.05.28-13.19.48:192][819]LogStaticMesh: Built static mesh [0.36s] /Game/Platformer/Meshes/Beanstalks/Pl_StoneBlock_05.Pl_StoneBlock_05
+[2019.05.28-13.19.48:218][819]LogStaticMesh: Building static mesh Pl_Tree_01...
+[2019.05.28-13.19.48:245][819]LogStaticMesh: Built static mesh [0.03s] /Game/Platformer/Meshes/Pl_Tree_01.Pl_Tree_01
+[2019.05.28-13.19.48:318][819]LogStaticMesh: Building static mesh Pl_Tree_02...
+[2019.05.28-13.19.48:345][819]LogStaticMesh: Built static mesh [0.03s] /Game/Platformer/Meshes/Pl_Tree_02.Pl_Tree_02
+[2019.05.28-13.19.48:443][819]LogStaticMesh: Building static mesh Pl_Tree_03...
+[2019.05.28-13.19.48:468][819]LogStaticMesh: Built static mesh [0.06s] /Game/Platformer/Meshes/Pl_Tree_03.Pl_Tree_03
+[2019.05.28-13.19.48:837][819]LogStaticMesh: Building static mesh Pl_Tree_04...
+[2019.05.28-13.19.48:877][819]LogStaticMesh: Built static mesh [0.27s] /Game/Platformer/Meshes/Pl_Tree_04.Pl_Tree_04
+[2019.05.28-13.19.48:888][819]LogStaticMesh: Building static mesh Pl_vine_01...
+[2019.05.28-13.19.48:891][819]LogStaticMesh: Built static mesh [0.00s] /Game/Platformer/Meshes/Beanstalks/Pl_vine_01.Pl_vine_01
+[2019.05.28-13.19.49:770][819]LogStaticMesh: Building static mesh Pl_vine_02...
+[2019.05.28-13.19.49:773][819]LogStaticMesh: Built static mesh [0.59s] /Game/Platformer/Meshes/Beanstalks/Pl_vine_02.Pl_vine_02
+[2019.05.28-13.19.50:302][819]LogStaticMesh: Building static mesh Pl_vine_03...
+[2019.05.28-13.19.50:304][819]LogStaticMesh: Built static mesh [0.00s] /Game/Platformer/Meshes/Beanstalks/Pl_vine_03.Pl_vine_03
+[2019.05.28-13.19.50:736][819]LogStaticMesh: Building static mesh Pl_vine_04...
+[2019.05.28-13.19.50:739][819]LogStaticMesh: Built static mesh [0.07s] /Game/Platformer/Meshes/Beanstalks/Pl_vine_04.Pl_vine_04
+[2019.05.28-13.19.50:958][819]LogStaticMesh: Building static mesh Pl_vine_05...
+[2019.05.28-13.19.50:961][819]LogStaticMesh: Built static mesh [0.06s] /Game/Platformer/Meshes/Beanstalks/Pl_vine_05.Pl_vine_05
+[2019.05.28-13.19.51:315][819]LogStaticMesh: Building static mesh Pl_Woodcatwalk_4m_01...
+[2019.05.28-13.19.51:324][819]LogStaticMesh: Built static mesh [0.11s] /Game/Platformer/Meshes/Pl_Woodcatwalk_4m_01.Pl_Woodcatwalk_4m_01
+[2019.05.28-13.19.51:397][819]LogStaticMesh: Building static mesh Pl_Woodcatwalk_4m_02...
+[2019.05.28-13.19.51:407][819]LogStaticMesh: Built static mesh [0.07s] /Game/Platformer/Meshes/Pl_Woodcatwalk_4m_02.Pl_Woodcatwalk_4m_02
+[2019.05.28-13.19.51:647][819]LogStaticMesh: Building static mesh Pl_woodPlat_1m...
+[2019.05.28-13.19.51:651][819]LogStaticMesh: Built static mesh [0.12s] /Game/Platformer/Meshes/Pl_woodPlat_1m.Pl_woodPlat_1m
+[2019.05.28-13.19.51:659][819]LogStaticMesh: Building static mesh Pl_woodPlat_2m...
+[2019.05.28-13.19.51:667][819]LogStaticMesh: Built static mesh [0.01s] /Game/Platformer/Meshes/Pl_woodPlat_2m.Pl_woodPlat_2m
+[2019.05.28-13.19.51:672][819]LogMaterial: Display: Missing cached shader map for material M_Plastic_Blue_Pattern_Parent, compiling. 
+[2019.05.28-13.19.51:753][819]LogMaterial: Display: Missing cached shader map for material M_Grass_nopattern, compiling. 
+[2019.05.28-13.19.51:777][819]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.05.28-13.19.51:777][819]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.05.28-13.19.51:777][819]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.05.28-13.19.51:777][819]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.28-13.19.51:777][819]LogMaterial: Display: Missing cached shader map for material M_GrassTrim, compiling. 
+[2019.05.28-13.19.52:335][819]LogMaterial: Display: Missing cached shader map for material M_Plastic_black_Parent, compiling. 
+[2019.05.28-13.19.52:530][819]LogMaterial: Display: Missing cached shader map for material M_Leaf, compiling. 
+[2019.05.28-13.19.52:555][819]LogMaterial: Display: Missing cached shader map for material M_Wood_Dark_Parent, compiling. 
+[2019.05.28-13.19.52:583][819]LogMaterial: Display: Missing cached shader map for material M_Tree, compiling. 
+[2019.05.28-13.19.52:640][819]LogMaterial: Display: Missing cached shader map for material M_Grass, compiling. 
+[2019.05.28-13.19.52:668][819]LogMaterial: Display: Missing cached shader map for material M_Plants, compiling. 
+[2019.05.28-13.19.52:704][819]LogMaterial: Display: Missing cached shader map for material M_BeanStalk, compiling. 
+[2019.05.28-13.19.52:741][819]LogMaterial: Display: Missing cached shader map for material M_Cliff, compiling. 
+[2019.05.28-13.19.52:848][819]LogMaterial: Display: Missing cached shader map for material M_StoneBlock, compiling. 
+[2019.05.28-13.19.52:886][819]LogMaterial: Display: Missing cached shader map for material M_Crate_Light_Parent, compiling. 
+[2019.05.28-13.19.52:937][819]LogMaterial: Display: Missing cached shader map for material M_Cloud, compiling. 
+[2019.05.28-13.19.52:997][819]LogAIModule: Creating AISystem for world OverView
+[2019.05.28-13.19.53:009][819]LogActorComponent: RegisterComponentWithWorld: (/Game/Platformer/Maps/OverView.OverView:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.05.28-13.19.53:086][819]LogAssetEditorManager: Opening Asset editor for World /Game/Platformer/Maps/OverView.OverView
+[2019.05.28-13.19.53:200][819]LogShaderCompilers: Display: Shaders left to compile 506
+[2019.05.28-13.19.53:629][819]Cmd: MAP LOAD FILE="../../../../../../Users/Ash/Desktop/UniWork/DNAProject/DNA-Group-35/DNAGroupProject/Content/Platformer/Maps/OverView.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.05.28-13.19.53:634][819]LightingResults: New page: Lighting Build
+[2019.05.28-13.19.53:657][819]LoadErrors: New page: Loading map: OverView.umap
+[2019.05.28-13.19.54:256][819]MapCheck: New page: Map Check
+[2019.05.28-13.19.54:256][819]LightingResults: New page: Lighting Build
+[2019.05.28-13.19.54:859][819]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.05.28-13.19.55:108][819]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.05.28-13.19.57:019][819]LogShaderCompilers: Display: Shaders left to compile 496
+[2019.05.28-13.19.57:019][819]LogShaderCompilers: Display: Shaders left to compile 486
+[2019.05.28-13.19.57:019][819]LogShaderCompilers: Display: Shaders left to compile 476
+[2019.05.28-13.19.57:019][819]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1,887.577ms to complete.
+[2019.05.28-13.19.57:022][819]LogFileHelpers: Loading map 'OverView' took 3.497
+[2019.05.28-13.19.57:598][823]LogShaderCompilers: Display: Shaders left to compile 466
+[2019.05.28-13.20.02:466][ 92]LogShaderCompilers: Display: Shaders left to compile 456
+[2019.05.28-13.20.04:565][214]LogShaderCompilers: Display: Shaders left to compile 446
+[2019.05.28-13.20.08:581][447]LogShaderCompilers: Display: Shaders left to compile 436
+[2019.05.28-13.20.09:078][476]LogShaderCompilers: Display: Shaders left to compile 426
+[2019.05.28-13.20.09:130][479]LogShaderCompilers: Display: Shaders left to compile 416
+[2019.05.28-13.20.12:203][654]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.28-13.20.13:319][663]LogShaderCompilers: Display: Shaders left to compile 406
+[2019.05.28-13.20.15:091][663]LogShaderCompilers: Display: Shaders left to compile 396
+[2019.05.28-13.20.15:091][663]LogTexture: Display: Building textures: HQ_Lightmap1_13 (AutoDXT, 512X512)
+[2019.05.28-13.20.15:091][663]LogTexture: Display: Building textures: HQ_Lightmap1_11 (AutoDXT, 256X256)
+[2019.05.28-13.20.15:091][663]LogTexture: Display: Building textures: HQ_Lightmap1_10 (AutoDXT, 1024X1024)
+[2019.05.28-13.20.15:091][663]LogTexture: Display: Building textures: HQ_Lightmap1_12 (AutoDXT, 1024X1024)
+[2019.05.28-13.20.15:091][663]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2019.05.28-13.20.15:128][663]LogTexture: Display: Building textures: HQ_Lightmap1_14 (AutoDXT, 1024X1024)
+[2019.05.28-13.20.17:111][663]LogTexture: Display: Building textures: HQ_Lightmap1_15 (AutoDXT, 512X512)
+[2019.05.28-13.20.17:111][663]LogTexture: Display: Building textures: HQ_Lightmap1_16 (AutoDXT, 1024X1024)
+[2019.05.28-13.20.17:111][663]LogTexture: Display: Building textures: HQ_Lightmap1_17 (AutoDXT, 512X512)
+[2019.05.28-13.20.17:111][663]LogTexture: Display: Building textures: HQ_Lightmap1_18 (AutoDXT, 512X512)
+[2019.05.28-13.20.17:111][663]LogTexture: Display: Building textures: HQ_Lightmap1_19 (AutoDXT, 1024X1024)
+[2019.05.28-13.20.17:111][663]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2019.05.28-13.20.17:111][663]LogTexture: Display: Building textures: HQ_Lightmap1_21 (AutoDXT, 128X128)
+[2019.05.28-13.20.17:111][663]LogTexture: Display: Building textures: HQ_Lightmap1_22 (AutoDXT, 64X64)
+[2019.05.28-13.20.17:111][663]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 1024X1024)
+[2019.05.28-13.20.17:111][663]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 1024X1024)
+[2019.05.28-13.20.17:436][663]LogTexture: Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 1024X1024)
+[2019.05.28-13.20.17:437][663]LogTexture: Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 1024X1024)
+[2019.05.28-13.20.18:621][663]LogTexture: Display: Building textures: HQ_Lightmap1_7 (AutoDXT, 256X256)
+[2019.05.28-13.20.18:621][663]LogTexture: Display: Building textures: HQ_Lightmap1_20 (AutoDXT, 1024X1024)
+[2019.05.28-13.20.18:621][663]LogShaderCompilers: Display: Shaders left to compile 386
+[2019.05.28-13.20.18:621][663]LogTexture: Display: Building textures: HQ_Lightmap1_8 (AutoDXT, 256X256)
+[2019.05.28-13.20.18:621][663]LogTexture: Display: Building textures: HQ_Lightmap1_9 (AutoDXT, 1024X1024)
+[2019.05.28-13.20.18:621][663]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2019.05.28-13.20.18:969][663]LogTexture: Display: Building textures: LQ_Lightmap_1_10 (DXT1, 1024X1024)
+[2019.05.28-13.20.19:479][663]LogTexture: Display: Building textures: LQ_Lightmap_1_11 (DXT1, 256X256)
+[2019.05.28-13.20.19:479][663]LogTexture: Display: Building textures: LQ_Lightmap_1_12 (DXT1, 1024X1024)
+[2019.05.28-13.20.19:479][663]LogTexture: Display: Building textures: LQ_Lightmap_1_14 (DXT1, 1024X1024)
+[2019.05.28-13.20.19:985][663]LogTexture: Display: Building textures: LQ_Lightmap_1_13 (DXT1, 512X512)
+[2019.05.28-13.20.19:985][663]LogTexture: Display: Building textures: LQ_Lightmap_1_16 (DXT1, 1024X1024)
+[2019.05.28-13.20.20:229][663]LogTexture: Display: Building textures: LQ_Lightmap_1_17 (DXT1, 512X512)
+[2019.05.28-13.20.20:229][663]LogTexture: Display: Building textures: LQ_Lightmap_1_18 (DXT1, 512X512)
+[2019.05.28-13.20.20:229][663]LogTexture: Display: Building textures: LQ_Lightmap_1_19 (DXT1, 1024X1024)
+[2019.05.28-13.20.20:230][663]LogTexture: Display: Building textures: LQ_Lightmap_1_15 (DXT1, 512X512)
+[2019.05.28-13.20.20:449][663]LogShaderCompilers: Display: Shaders left to compile 376
+[2019.05.28-13.20.20:449][663]LogTexture: Display: Building textures: LQ_Lightmap_1_20 (DXT1, 1024X1024)
+[2019.05.28-13.20.20:449][663]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2019.05.28-13.20.20:450][663]LogTexture: Display: Building textures: LQ_Lightmap_1_22 (DXT1, 64X64)
+[2019.05.28-13.20.21:357][663]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 1024X1024)
+[2019.05.28-13.20.21:357][663]LogTexture: Display: Building textures: LQ_Lightmap_1_21 (DXT1, 128X128)
+[2019.05.28-13.20.21:357][663]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 1024X1024)
+[2019.05.28-13.20.21:357][663]LogTexture: Display: Building textures: LQ_Lightmap_1_5 (DXT1, 1024X1024)
+[2019.05.28-13.20.21:357][663]LogTexture: Display: Building textures: LQ_Lightmap_1_6 (DXT1, 1024X1024)
+[2019.05.28-13.20.21:357][663]LogTexture: Display: Building textures: LQ_Lightmap_1_7 (DXT1, 256X256)
+[2019.05.28-13.20.21:357][663]LogTexture: Display: Building textures: LQ_Lightmap_1_8 (DXT1, 256X256)
+[2019.05.28-13.20.21:357][663]LogTexture: Display: Building textures: LQ_Lightmap_1_9 (DXT1, 1024X1024)
+[2019.05.28-13.20.21:871][663]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2019.05.28-13.20.21:872][663]LogTexture: Display: Building textures: SkyOcclusion1_10 (AutoDXT, 1024X512)
+[2019.05.28-13.20.21:872][663]LogTexture: Display: Building textures: SkyOcclusion1_11 (AutoDXT, 256X128)
+[2019.05.28-13.20.22:301][663]LogTexture: Display: Building textures: SkyOcclusion1_12 (AutoDXT, 1024X512)
+[2019.05.28-13.20.22:708][663]LogTexture: Display: Building textures: SkyOcclusion1_13 (AutoDXT, 512X256)
+[2019.05.28-13.20.22:708][663]LogTexture: Display: Building textures: SkyOcclusion1_15 (AutoDXT, 512X256)
+[2019.05.28-13.20.23:962][663]LogTexture: Display: Building textures: SkyOcclusion1_17 (AutoDXT, 512X256)
+[2019.05.28-13.20.23:962][663]LogTexture: Display: Building textures: SkyOcclusion1_14 (AutoDXT, 1024X512)
+[2019.05.28-13.20.23:962][663]LogTexture: Display: Building textures: SkyOcclusion1_18 (AutoDXT, 512X256)
+[2019.05.28-13.20.23:962][663]LogTexture: Display: Building textures: SkyOcclusion1_16 (AutoDXT, 1024X512)
+[2019.05.28-13.20.23:962][663]LogShaderCompilers: Display: Shaders left to compile 366
+[2019.05.28-13.20.23:962][663]LogTexture: Display: Building textures: SkyOcclusion1_21 (AutoDXT, 128X64)
+[2019.05.28-13.20.23:962][663]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 1024X512)
+[2019.05.28-13.20.23:962][663]LogTexture: Display: Building textures: SkyOcclusion1_19 (AutoDXT, 1024X512)
+[2019.05.28-13.20.23:962][663]LogTexture: Display: Building textures: SkyOcclusion1_20 (AutoDXT, 1024X512)
+[2019.05.28-13.20.23:962][663]LogTexture: Display: Building textures: SkyOcclusion1_22 (AutoDXT, 64X32)
+[2019.05.28-13.20.23:962][663]LogTexture: Display: Building textures: SkyOcclusion1_3 (AutoDXT, 1024X512)
+[2019.05.28-13.20.23:962][663]LogShaderCompilers: Display: Shaders left to compile 356
+[2019.05.28-13.20.24:556][663]LogTexture: Display: Building textures: SkyOcclusion1_7 (AutoDXT, 256X128)
+[2019.05.28-13.20.24:556][663]LogTexture: Display: Building textures: SkyOcclusion1_4 (AutoDXT, 1024X512)
+[2019.05.28-13.20.24:556][663]LogTexture: Display: Building textures: SkyOcclusion1_8 (AutoDXT, 256X128)
+[2019.05.28-13.20.24:556][663]LogTexture: Display: Building textures: SkyOcclusion1_6 (AutoDXT, 1024X512)
+[2019.05.28-13.20.24:556][663]LogTexture: Display: Building textures: SkyOcclusion1_5 (AutoDXT, 1024X512)
+[2019.05.28-13.20.24:556][663]LogTexture: Display: Building textures: SkyOcclusion1_9 (AutoDXT, 1024X512)
+[2019.05.28-13.20.24:556][663]LogTexture: Display: Building textures: T_SmallWaves_N (BC5, 512X512)
+[2019.05.28-13.20.24:556][663]LogTexture: Display: Building textures: T_LargeWaves_H (G8, 1024X1024)
+[2019.05.28-13.20.24:898][663]LogTexture: Display: Building textures: T_LargeWaves_N (BC5, 1024X1024)
+[2019.05.28-13.20.25:046][663]LogStaticMesh: Building static mesh SM_OceanWater...
+[2019.05.28-13.20.25:114][663]LogStaticMesh: Built static mesh [0.07s] /Game/Platformer/Ocean/Meshes/SM_OceanWater.SM_OceanWater
+[2019.05.28-13.20.29:992][663]LogShaderCompilers: Display: Shaders left to compile 346
+[2019.05.28-13.20.29:992][663]LogTexture: Display: Building textures: T_Seafoam_01 (AutoDXT, 2048X2048)
+[2019.05.28-13.20.29:992][663]LogShaderCompilers: Display: Shaders left to compile 336
+[2019.05.28-13.20.29:992][663]LogShaderCompilers: Display: Shaders left to compile 326
+[2019.05.28-13.20.29:993][663]LogShaderCompilers: Display: Shaders left to compile 316
+[2019.05.28-13.20.29:993][663]LogMaterial: Display: Missing cached shader map for material M_OceanWater_1, compiling. 
+[2019.05.28-13.20.30:343][663]LogMaterial: Display: Missing cached shader map for material M_OceanWater_1, compiling. 
+[2019.05.28-13.20.30:437][663]LogAIModule: Creating AISystem for world Example_map_01
+[2019.05.28-13.20.30:438][663]LogActorComponent: RegisterComponentWithWorld: (/Game/Platformer/Maps/Example_map_01.Example_map_01:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.05.28-13.20.30:734][663]LogShaderCompilers: Display: Shaders left to compile 492
+[2019.05.28-13.20.30:746][663]LogAssetEditorManager: Opening Asset editor for World /Game/Platformer/Maps/Example_map_01.Example_map_01
+[2019.05.28-13.20.30:813][663]Cmd: MAP LOAD FILE="../../../../../../Users/Ash/Desktop/UniWork/DNAProject/DNA-Group-35/DNAGroupProject/Content/Platformer/Maps/Example_map_01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.05.28-13.20.30:813][663]LightingResults: New page: Lighting Build
+[2019.05.28-13.20.30:814][663]LoadErrors: New page: Loading map: Example_map_01.umap
+[2019.05.28-13.20.30:817][663]MapCheck: New page: Map Check
+[2019.05.28-13.20.30:817][663]LightingResults: New page: Lighting Build
+[2019.05.28-13.20.31:816][663]LogShaderCompilers: Display: Shaders left to compile 482
+[2019.05.28-13.20.32:496][663]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2019.05.28-13.20.32:575][663]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.05.28-13.20.32:785][663]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 210.104ms to complete.
+[2019.05.28-13.20.32:787][663]LogFileHelpers: Loading map 'Example_map_01' took 1.976
+[2019.05.28-13.20.33:679][663]LogShaderCompilers: Display: Shaders left to compile 472
+[2019.05.28-13.20.34:259][665]LogShaderCompilers: Display: Shaders left to compile 462
+[2019.05.28-13.20.34:259][665]LogShaderCompilers: Display: Shaders left to compile 452
+[2019.05.28-13.20.38:796][882]LogShaderCompilers: Display: Shaders left to compile 442
+[2019.05.28-13.20.42:905][118]LogShaderCompilers: Display: Shaders left to compile 432
+[2019.05.28-13.20.43:491][153]LogShaderCompilers: Display: Shaders left to compile 422
+[2019.05.28-13.20.46:244][310]LogShaderCompilers: Display: Shaders left to compile 412
+[2019.05.28-13.20.50:847][573]LogShaderCompilers: Display: Shaders left to compile 402
+[2019.05.28-13.20.52:044][641]LogShaderCompilers: Display: Shaders left to compile 392
+[2019.05.28-13.20.54:186][765]LogShaderCompilers: Display: Shaders left to compile 382
+[2019.05.28-13.20.55:177][822]LogShaderCompilers: Display: Shaders left to compile 372
+[2019.05.28-13.20.58:151][990]LogShaderCompilers: Display: Shaders left to compile 362
+[2019.05.28-13.21.02:837][219]LogShaderCompilers: Display: Shaders left to compile 352
+[2019.05.28-13.21.05:215][310]LogShaderCompilers: Display: Shaders left to compile 342
+[2019.05.28-13.21.05:825][329]LogShaderCompilers: Display: Shaders left to compile 332
+[2019.05.28-13.21.07:135][385]LogShaderCompilers: Display: Shaders left to compile 322
+[2019.05.28-13.21.11:932][573]LogShaderCompilers: Display: Shaders left to compile 312
+[2019.05.28-13.21.12:525][594]LogShaderCompilers: Display: Shaders left to compile 302
+[2019.05.28-13.21.12:999][611]LogShaderCompilers: Display: Shaders left to compile 292
+[2019.05.28-13.21.16:506][730]LogShaderCompilers: Display: Shaders left to compile 282
+[2019.05.28-13.21.18:286][802]LogShaderCompilers: Display: Shaders left to compile 272
+[2019.05.28-13.21.20:987][925]LogShaderCompilers: Display: Shaders left to compile 262
+[2019.05.28-13.21.22:485][997]LogShaderCompilers: Display: Shaders left to compile 252
+[2019.05.28-13.21.24:630][ 88]LogShaderCompilers: Display: Shaders left to compile 242
+[2019.05.28-13.21.26:125][125]LogShaderCompilers: Display: Shaders left to compile 232
+[2019.05.28-13.21.27:161][158]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2019.05.28-13.21.28:530][183]LogShaderCompilers: Display: Shaders left to compile 222
+[2019.05.28-13.21.30:703][254]LogShaderCompilers: Display: Shaders left to compile 212
+[2019.05.28-13.21.31:191][270]LogShaderCompilers: Display: Shaders left to compile 202
+[2019.05.28-13.21.32:013][299]LogShaderCompilers: Display: Shaders left to compile 192
+[2019.05.28-13.21.33:213][342]LogShaderCompilers: Display: Shaders left to compile 182
+[2019.05.28-13.21.39:745][605]LogShaderCompilers: Display: Shaders left to compile 172
+[2019.05.28-13.21.40:626][639]LogShaderCompilers: Display: Shaders left to compile 162
+[2019.05.28-13.21.40:679][641]LogShaderCompilers: Display: Shaders left to compile 152
+[2019.05.28-13.21.41:952][689]LogShaderCompilers: Display: Shaders left to compile 142
+[2019.05.28-13.21.44:902][804]LogShaderCompilers: Display: Shaders left to compile 132
+[2019.05.28-13.21.46:790][878]LogShaderCompilers: Display: Shaders left to compile 122
+[2019.05.28-13.21.46:990][886]LogShaderCompilers: Display: Shaders left to compile 112
+[2019.05.28-13.21.48:351][935]LogShaderCompilers: Display: Shaders left to compile 102
+[2019.05.28-13.21.55:644][196]LogShaderCompilers: Display: Shaders left to compile 92
+[2019.05.28-13.21.58:148][289]LogShaderCompilers: Display: Shaders left to compile 82
+[2019.05.28-13.21.59:151][326]LogShaderCompilers: Display: Shaders left to compile 72
+[2019.05.28-13.21.59:375][335]LogShaderCompilers: Display: Shaders left to compile 62
+[2019.05.28-13.22.03:064][476]LogShaderCompilers: Display: Shaders left to compile 52
+[2019.05.28-13.22.03:749][502]LogShaderCompilers: Display: Shaders left to compile 42
+[2019.05.28-13.22.05:156][557]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.05.28-13.22.05:430][567]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.05.28-13.22.09:316][710]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.05.28-13.22.13:793][921]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.05.28-13.23.14:639][464]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_OceanWater2)
+[2019.05.28-13.24.58:123][261]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pl_stalkbase_9)
+[2019.05.28-13.24.59:161][314]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pl_stalkbase_10)
+[2019.05.28-13.25.00:655][393]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pl_stalkbase_11)
+[2019.05.28-13.25.06:452][723]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.28-13.25.06:518][727]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.28-13.25.06:719][727]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Platformer/Maps/Example_map_01.Example_map_01:PersistentLevel' has LevelScriptBlueprint '/Game/Platformer/Maps/Example_map_01.Example_map_01:PersistentLevel.Example_map_01' with GeneratedClass '/Game/Platformer/Maps/Example_map_01.Example_map_01_C' with ClassGeneratedBy '/Game/Platformer/Maps/Example_map_01.Example_map_01:PersistentLevel.Example_map_01'
+[2019.05.28-13.25.06:773][727]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.28-13.25.07:023][727]PIE: New page: PIE session: Example_map_01 (28 May 2019 15:25:06)
+[2019.05.28-13.25.07:052][727]LogPlayLevel: Creating play world package: /Game/Platformer/Maps/UEDPIE_0_Example_map_01
+[2019.05.28-13.25.07:197][727]LogPlayLevel: PIE: StaticDuplicateObject took: (0.144834s)
+[2019.05.28-13.25.07:198][727]LogAIModule: Creating AISystem for world Example_map_01
+[2019.05.28-13.25.07:229][727]LogPlayLevel: PIE: World Init took: (0.031965s)
+[2019.05.28-13.25.07:245][727]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Platformer/Maps/Example_map_01.Example_map_01 to /Game/Platformer/Maps/UEDPIE_0_Example_map_01.Example_map_01 (0.193166s)
+[2019.05.28-13.25.07:467][727]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.28-13.25.07:678][727]LogInit: FAudioDevice initialized.
+[2019.05.28-13.25.07:918][727]LogLoad: Game class is 'DNAGroupProjectGameMode'
+[2019.05.28-13.25.08:184][727]LogWorld: Bringing World /Game/Platformer/Maps/UEDPIE_0_Example_map_01.Example_map_01 up for play (max tick rate 60) at 2019.05.28-14.25.08
+[2019.05.28-13.25.08:298][727]LogWorld: Bringing up level for play took: 0.151769
+[2019.05.28-13.25.08:642][727]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 10 classes and 0 folders.
+[2019.05.28-13.25.08:789][727]PIE: Play in editor start time for /Game/Platformer/Maps/UEDPIE_0_Example_map_01 2.839
+[2019.05.28-13.25.08:790][727]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Platformer/Maps/Example_map_01.Example_map_01:PersistentLevel' has LevelScriptBlueprint '/Game/Platformer/Maps/Example_map_01.Example_map_01:PersistentLevel.Example_map_01' with GeneratedClass '/Game/Platformer/Maps/Example_map_01.Example_map_01_C' with ClassGeneratedBy '/Game/Platformer/Maps/Example_map_01.Example_map_01:PersistentLevel.Example_map_01'
+[2019.05.28-13.25.34:298][230]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Platformer/Maps/Example_map_01.Example_map_01:PersistentLevel' has LevelScriptBlueprint '/Game/Platformer/Maps/Example_map_01.Example_map_01:PersistentLevel.Example_map_01' with GeneratedClass '/Game/Platformer/Maps/Example_map_01.Example_map_01_C' with ClassGeneratedBy '/Game/Platformer/Maps/Example_map_01.Example_map_01:PersistentLevel.Example_map_01'
+[2019.05.28-13.25.34:501][230]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.28-13.25.34:614][230]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.28-13.25.34:615][230]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Platformer/Maps/Example_map_01.Example_map_01:PersistentLevel' has LevelScriptBlueprint '/Game/Platformer/Maps/Example_map_01.Example_map_01:PersistentLevel.Example_map_01' with GeneratedClass '/Game/Platformer/Maps/Example_map_01.Example_map_01_C' with ClassGeneratedBy '/Game/Platformer/Maps/Example_map_01.Example_map_01:PersistentLevel.Example_map_01'
+[2019.05.28-13.25.34:708][230]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.28-13.25.34:846][231]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.05.28-13.25.50:878][118]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.28-13.25.56:470][352]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.05.28-13.25.57:124][389]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.28-13.25.57:207][394]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.28-13.25.57:224][394]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Platformer/Maps/Example_map_01.Example_map_01:PersistentLevel' has LevelScriptBlueprint '/Game/Platformer/Maps/Example_map_01.Example_map_01:PersistentLevel.Example_map_01' with GeneratedClass '/Game/Platformer/Maps/Example_map_01.Example_map_01_C' with ClassGeneratedBy '/Game/Platformer/Maps/Example_map_01.Example_map_01:PersistentLevel.Example_map_01'
+[2019.05.28-13.25.57:225][394]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.28-13.25.57:225][394]PIE: New page: PIE session: Example_map_01 (28 May 2019 15:25:57)
+[2019.05.28-13.25.57:225][394]LogPlayLevel: Creating play world package: /Game/Platformer/Maps/UEDPIE_0_Example_map_01
+[2019.05.28-13.25.57:304][394]LogPlayLevel: PIE: StaticDuplicateObject took: (0.079076s)
+[2019.05.28-13.25.57:305][394]LogAIModule: Creating AISystem for world Example_map_01
+[2019.05.28-13.25.57:305][394]LogPlayLevel: PIE: World Init took: (0.001366s)
+[2019.05.28-13.25.57:306][394]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Platformer/Maps/Example_map_01.Example_map_01 to /Game/Platformer/Maps/UEDPIE_0_Example_map_01.Example_map_01 (0.080961s)
+[2019.05.28-13.25.57:339][394]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.28-13.25.57:363][394]LogInit: FAudioDevice initialized.
+[2019.05.28-13.25.57:397][394]LogLoad: Game class is 'DNAGroupProjectGameMode'
+[2019.05.28-13.25.57:442][394]LogWorld: Bringing World /Game/Platformer/Maps/UEDPIE_0_Example_map_01.Example_map_01 up for play (max tick rate 60) at 2019.05.28-14.25.57
+[2019.05.28-13.25.57:444][394]LogWorld: Bringing up level for play took: 0.045133
+[2019.05.28-13.25.57:474][394]PIE: Play in editor start time for /Game/Platformer/Maps/UEDPIE_0_Example_map_01 -0.477
+[2019.05.28-13.25.57:474][394]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Platformer/Maps/Example_map_01.Example_map_01:PersistentLevel' has LevelScriptBlueprint '/Game/Platformer/Maps/Example_map_01.Example_map_01:PersistentLevel.Example_map_01' with GeneratedClass '/Game/Platformer/Maps/Example_map_01.Example_map_01_C' with ClassGeneratedBy '/Game/Platformer/Maps/Example_map_01.Example_map_01:PersistentLevel.Example_map_01'
+[2019.05.28-13.26.18:862][662]Set new viewmode: Wireframe
+[2019.05.28-13.26.20:119][696]Set new viewmode: Wireframe
+[2019.05.28-13.26.20:662][715]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Platformer/Maps/Example_map_01.Example_map_01:PersistentLevel' has LevelScriptBlueprint '/Game/Platformer/Maps/Example_map_01.Example_map_01:PersistentLevel.Example_map_01' with GeneratedClass '/Game/Platformer/Maps/Example_map_01.Example_map_01_C' with ClassGeneratedBy '/Game/Platformer/Maps/Example_map_01.Example_map_01:PersistentLevel.Example_map_01'
+[2019.05.28-13.26.20:662][715]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.28-13.26.20:755][715]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.28-13.26.20:756][715]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Platformer/Maps/Example_map_01.Example_map_01:PersistentLevel' has LevelScriptBlueprint '/Game/Platformer/Maps/Example_map_01.Example_map_01:PersistentLevel.Example_map_01' with GeneratedClass '/Game/Platformer/Maps/Example_map_01.Example_map_01_C' with ClassGeneratedBy '/Game/Platformer/Maps/Example_map_01.Example_map_01:PersistentLevel.Example_map_01'
+[2019.05.28-13.26.20:792][715]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.28-13.26.20:841][716]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.05.28-13.26.23:854][887]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.28-13.26.28:495][154]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.28-13.26.28:524][154]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Platformer/Maps/Example_map_01.Example_map_01:PersistentLevel' has LevelScriptBlueprint '/Game/Platformer/Maps/Example_map_01.Example_map_01:PersistentLevel.Example_map_01' with GeneratedClass '/Game/Platformer/Maps/Example_map_01.Example_map_01_C' with ClassGeneratedBy '/Game/Platformer/Maps/Example_map_01.Example_map_01:PersistentLevel.Example_map_01'
+[2019.05.28-13.26.28:524][154]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.28-13.26.28:524][154]PIE: New page: PIE session: Example_map_01 (28 May 2019 15:26:28)
+[2019.05.28-13.26.28:524][154]LogPlayLevel: Creating play world package: /Game/Platformer/Maps/UEDPIE_0_Example_map_01
+[2019.05.28-13.26.28:704][154]LogPlayLevel: PIE: StaticDuplicateObject took: (0.180751s)
+[2019.05.28-13.26.28:705][154]LogAIModule: Creating AISystem for world Example_map_01
+[2019.05.28-13.26.28:706][154]LogPlayLevel: PIE: World Init took: (0.001197s)
+[2019.05.28-13.26.28:706][154]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Platformer/Maps/Example_map_01.Example_map_01 to /Game/Platformer/Maps/UEDPIE_0_Example_map_01.Example_map_01 (0.182520s)
+[2019.05.28-13.26.28:738][154]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.28-13.26.28:767][154]LogInit: FAudioDevice initialized.
+[2019.05.28-13.26.28:801][154]LogLoad: Game class is 'DNAGroupProjectGameMode'
+[2019.05.28-13.26.28:842][154]LogWorld: Bringing World /Game/Platformer/Maps/UEDPIE_0_Example_map_01.Example_map_01 up for play (max tick rate 60) at 2019.05.28-14.26.28
+[2019.05.28-13.26.28:844][154]LogWorld: Bringing up level for play took: 0.041941
+[2019.05.28-13.26.28:860][154]PIE: Play in editor start time for /Game/Platformer/Maps/UEDPIE_0_Example_map_01 0.909
+[2019.05.28-13.26.28:861][154]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Platformer/Maps/Example_map_01.Example_map_01:PersistentLevel' has LevelScriptBlueprint '/Game/Platformer/Maps/Example_map_01.Example_map_01:PersistentLevel.Example_map_01' with GeneratedClass '/Game/Platformer/Maps/Example_map_01.Example_map_01_C' with ClassGeneratedBy '/Game/Platformer/Maps/Example_map_01.Example_map_01:PersistentLevel.Example_map_01'
+[2019.05.28-13.28.22:338][941]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Platformer/Maps/Example_map_01.Example_map_01:PersistentLevel' has LevelScriptBlueprint '/Game/Platformer/Maps/Example_map_01.Example_map_01:PersistentLevel.Example_map_01' with GeneratedClass '/Game/Platformer/Maps/Example_map_01.Example_map_01_C' with ClassGeneratedBy '/Game/Platformer/Maps/Example_map_01.Example_map_01:PersistentLevel.Example_map_01'
+[2019.05.28-13.28.22:339][941]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.28-13.28.22:397][941]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.28-13.28.22:397][941]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Platformer/Maps/Example_map_01.Example_map_01:PersistentLevel' has LevelScriptBlueprint '/Game/Platformer/Maps/Example_map_01.Example_map_01:PersistentLevel.Example_map_01' with GeneratedClass '/Game/Platformer/Maps/Example_map_01.Example_map_01_C' with ClassGeneratedBy '/Game/Platformer/Maps/Example_map_01.Example_map_01:PersistentLevel.Example_map_01'
+[2019.05.28-13.28.22:432][941]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.28-13.28.22:473][942]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.05.28-13.28.43:107][156]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.28-13.28.47:955][161]LogSavePackage: Moving '../../../../../../Users/Ash/Desktop/UniWork/DNAProject/DNA-Group-35/DNAGroupProject/Saved/Example_map_01E0A99ACE4D29DE9AF48F58A0FAE064B4.tmp' to '../../../../../../Users/Ash/Desktop/UniWork/DNAProject/DNA-Group-35/DNAGroupProject/Content/Platformer/Maps/Example_map_01.umap'
+[2019.05.28-13.29.57:250][246]LogEditorViewport: Clicking on Actor (LMB): Pl_Coin_01_C (Pl_Coin_6)
+[2019.05.28-13.29.58:883][339]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.28-13.29.59:474][374]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Platformer/Blueprints/Pl_Coin_01.Pl_Coin_01
+[2019.05.28-13.30.40:901][807]LogAssetEditorManager: Opening Asset editor for Class /Script/DNAGroupProject.DNAGroupProjectCharacter
+[2019.05.28-13.31.07:830][857]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.28-13.31.39:242][496]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2019.05.28-13.31.39:284][497]LogShaderCompilers: Display: Shaders left to compile 44
+[2019.05.28-13.31.39:284][497]LogShaderCompilers: Display: Shaders left to compile 34
+[2019.05.28-13.31.39:284][497]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.05.28-13.31.39:284][497]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.05.28-13.31.39:487][497]LogMaterial: Display: Missing cached shader map for material Material_1, compiling. 
+[2019.05.28-13.31.39:555][498]LogMaterial: Display: Missing cached shader map for material Material_2, compiling. 
+[2019.05.28-13.31.39:611][499]LogMaterial: Display: Missing cached shader map for material Material_3, compiling. 
+[2019.05.28-13.31.46:083][806]LogShaderCompilers: Display: Shaders left to compile 136
+[2019.05.28-13.31.46:102][807]LogShaderCompilers: Display: Shaders left to compile 126
+[2019.05.28-13.31.46:416][821]LogShaderCompilers: Display: Shaders left to compile 116
+[2019.05.28-13.31.48:953][933]LogShaderCompilers: Display: Shaders left to compile 106
+[2019.05.28-13.31.49:468][957]LogShaderCompilers: Display: Shaders left to compile 96
+[2019.05.28-13.31.50:058][983]LogShaderCompilers: Display: Shaders left to compile 86
+[2019.05.28-13.31.50:649][  9]LogShaderCompilers: Display: Shaders left to compile 76
+[2019.05.28-13.31.54:200][173]LogShaderCompilers: Display: Shaders left to compile 66
+[2019.05.28-13.31.55:002][210]LogShaderCompilers: Display: Shaders left to compile 56
+[2019.05.28-13.31.55:397][228]LogShaderCompilers: Display: Shaders left to compile 46
+[2019.05.28-13.31.57:600][325]LogShaderCompilers: Display: Shaders left to compile 36
+[2019.05.28-13.31.58:914][383]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.05.28-13.31.59:171][395]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.05.28-13.32.01:944][516]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.05.28-13.32.26:116][968]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.28-13.32.37:794][663]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.28-13.32.38:473][663]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Platformer/Maps/Example_map_01.Example_map_01:PersistentLevel' has LevelScriptBlueprint '/Game/Platformer/Maps/Example_map_01.Example_map_01:PersistentLevel.Example_map_01' with GeneratedClass '/Game/Platformer/Maps/Example_map_01.Example_map_01_C' with ClassGeneratedBy '/Game/Platformer/Maps/Example_map_01.Example_map_01:PersistentLevel.Example_map_01'
+[2019.05.28-13.32.38:473][663]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.28-13.32.38:473][663]PIE: New page: PIE session: Example_map_01 (28 May 2019 15:32:38)
+[2019.05.28-13.32.38:473][663]LogPlayLevel: Creating play world package: /Game/Platformer/Maps/UEDPIE_0_Example_map_01
+[2019.05.28-13.32.38:660][663]LogPlayLevel: PIE: StaticDuplicateObject took: (0.187538s)
+[2019.05.28-13.32.38:661][663]LogAIModule: Creating AISystem for world Example_map_01
+[2019.05.28-13.32.38:662][663]LogPlayLevel: PIE: World Init took: (0.001310s)
+[2019.05.28-13.32.38:662][663]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Platformer/Maps/Example_map_01.Example_map_01 to /Game/Platformer/Maps/UEDPIE_0_Example_map_01.Example_map_01 (0.189399s)
+[2019.05.28-13.32.38:696][663]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.28-13.32.38:725][663]LogInit: FAudioDevice initialized.
+[2019.05.28-13.32.38:758][663]LogLoad: Game class is 'DNAGroupProjectGameMode'
+[2019.05.28-13.32.38:803][663]LogWorld: Bringing World /Game/Platformer/Maps/UEDPIE_0_Example_map_01.Example_map_01 up for play (max tick rate 60) at 2019.05.28-14.32.38
+[2019.05.28-13.32.38:804][663]LogWorld: Bringing up level for play took: 0.045633
+[2019.05.28-13.32.38:819][663]PIE: Play in editor start time for /Game/Platformer/Maps/UEDPIE_0_Example_map_01 0.868
+[2019.05.28-13.32.38:819][663]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Platformer/Maps/Example_map_01.Example_map_01:PersistentLevel' has LevelScriptBlueprint '/Game/Platformer/Maps/Example_map_01.Example_map_01:PersistentLevel.Example_map_01' with GeneratedClass '/Game/Platformer/Maps/Example_map_01.Example_map_01_C' with ClassGeneratedBy '/Game/Platformer/Maps/Example_map_01.Example_map_01:PersistentLevel.Example_map_01'
+[2019.05.28-13.32.49:239][284]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2019.05.28-13.32.52:688][365]LogSlate: Window 'ThirdPersonCharacter' being destroyed
+[2019.05.28-13.32.54:464][471]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.28-13.32.54:790][477]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2019.05.28-13.32.58:886][605]LogSlate: Window 'ThirdPersonCharacter' being destroyed
+[2019.05.28-13.33.30:997][453]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Platformer/Maps/Example_map_01.Example_map_01:PersistentLevel' has LevelScriptBlueprint '/Game/Platformer/Maps/Example_map_01.Example_map_01:PersistentLevel.Example_map_01' with GeneratedClass '/Game/Platformer/Maps/Example_map_01.Example_map_01_C' with ClassGeneratedBy '/Game/Platformer/Maps/Example_map_01.Example_map_01:PersistentLevel.Example_map_01'
+[2019.05.28-13.33.31:132][453]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.28-13.33.31:184][453]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.28-13.33.31:184][453]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Platformer/Maps/Example_map_01.Example_map_01:PersistentLevel' has LevelScriptBlueprint '/Game/Platformer/Maps/Example_map_01.Example_map_01:PersistentLevel.Example_map_01' with GeneratedClass '/Game/Platformer/Maps/Example_map_01.Example_map_01_C' with ClassGeneratedBy '/Game/Platformer/Maps/Example_map_01.Example_map_01:PersistentLevel.Example_map_01'
+[2019.05.28-13.33.31:226][453]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.28-13.33.31:254][454]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2019.05.28-13.33.43:360][158]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.28-13.33.51:334][162]LogSavePackage: Moving '../../../../../../Users/Ash/Desktop/UniWork/DNAProject/DNA-Group-35/DNAGroupProject/Saved/Example_map_0153C977FA4CDCA66A094015827749E019.tmp' to '../../../../../../Users/Ash/Desktop/UniWork/DNAProject/DNA-Group-35/DNAGroupProject/Content/Platformer/Maps/Example_map_01.umap'
